@@ -1,0 +1,116 @@
+{
+  "images": [
+    {
+      "name": "Duchonka1.jpeg",
+      "title": "Hip-Hop žije Duchonka 2023",
+      "description": "Skupinová fotka s partiou počas koncertu na festivale hip-hop žije Duchonka 2023",
+      "timestamp": "2023-08-19",
+      "gps": [48.662310,18.096000],
+      "url": "./photos/Duchonka1.jpeg"
+    },
+    {
+      "name": "Duchonka2.jpeg",
+      "title": "Hip-Hop žije Duchonka 2023-Smart",
+      "description": "Odchytenie smarta krátko po koncerte DMS na festivale hip-hop žije Duchonka 2023",
+      "timestamp": "2023-08-18",
+      "gps": [48.662310,18.096000],
+      "url": "./photos/Duchonka2.jpeg"
+    },
+    {
+      "name": "EatAndMeet1.jpg",
+      "title": "ŠPEAI obed v EatAndMeat",
+      "description": "Skupinový obed členov športovej komisie študentského parlamentu po upratovaní posilňovne",
+      "timestamp": "2023-11-01",
+      "gps": [48.161020,17.067520],
+      "url": "./photos/EatAndMeet1.JPG"
+    },
+    {
+      "name": "Hory1.jpeg",
+      "title": "Vápeč",
+      "description": "Výhľad z vrchu Vápeč",
+      "timestamp": "2021-10-23",
+      "gps": [48.9387,18.3262],
+      "url": "./photos/Hory1.jpeg"
+    },
+    {
+      "name": "Krizovatka1.jpg",
+      "title": "Kontrola VB",
+      "description": "Kontrola od kamarátov z verejnej bezpečnosti na Tuchynskej križovatke",
+      "timestamp": "2023-04-02",
+      "gps": [49.03517,18.23423],
+      "url": "./photos/Krizovatka1.JPG"
+    },
+    {
+      "name": "LidlPU1.jpg",
+      "title": "Letné Raňajky",
+      "description": "Raňajky z lidla v Púchove na kabriolete pred prácou v škole",
+      "timestamp": "2023-09-08",
+      "gps": [49.11749,18.31540],
+      "url": "./photos/LidlPU1.JPG"
+    },
+    {
+      "name": "Polsko1.jpg",
+      "title": "Sushi na hoteli",
+      "description": "Jedenie sushi na hoteli Srebrny Bucznik počas wellness pobytu v Polsku",
+      "timestamp": "2023-09-14",
+      "gps": [49.57778,18.89653],
+      "url": "./photos/Polsko1.JPG"
+    },
+    {
+      "name": "PrahaBar1.jpeg",
+      "title": "Ice bar Praha",
+      "description": "Skupinová fotka z Ice baru pri Karlovom moste v prahe počas nášho výletu",
+      "timestamp": "2023-09-01",
+      "gps": [50.08546,14.41390],
+      "url": "./photos/PrahaBar1.jpeg"
+    },
+    {
+      "name": "Rudno1.jpg",
+      "title": "FallDays 2022 fiatka",
+      "description": "Jazda na vlastnoručne vyrobenom kabriolete od Fiatu (hneď po odrezaní strechy)",
+      "timestamp": "2022-12-06",
+      "gps": [48.80395,18.47641],
+      "url": "./photos/Rudno1.jpg"
+    },
+    {
+      "name": "Rudno2.jpg",
+      "title": "FallDays 2022 carlimbo",
+      "description": "Sútaž o najližšie auto zrazu",
+      "timestamp": "2022-12-06",
+      "gps": [48.80395,18.47641],
+      "url": "./photos/Rudno2.jpg"
+    },
+    {
+      "name": "Rudno3.jpeg",
+      "title": "CarsNight Rudno",
+      "description": "Večer na viacdňovom stretnutí fanúšikov športových a upravených áut",
+      "timestamp": "2022-07-29",
+      "gps": [48.80395,18.47641],
+      "url": "./photos/Rudno3.jpeg"
+    },
+    {
+      "name": "Slavnica1.jpeg",
+      "title": "Oslava v Slávnici",
+      "description": "Oslava po bratrancovom prímaní v Slávnici (fotograf bratranec Jurko)",
+      "timestamp": "2022-06-04",
+      "gps": [48.99758,18.18893],
+      "url": "./photos/Slavnica1.jpeg"
+    },
+    {
+      "name": "Vieden1.jpg",
+      "title": "Kúpa auta vo Viedni",
+      "description": "Cesta z Viedenského bazáru po kúpe auta na predaj",
+      "timestamp": "2022-07-27",
+      "gps": [48.22427,16.82094],
+      "url": "./photos/Vieden1.jpg"
+    },
+    {
+      "name": "ZlatePiesky1.jpeg",
+      "title": "Hip-Hop žije Zlaté Piesky 2023",
+      "description": "Fotka s kamarátkami, kt. pracovali vo fotostánku Kofoly na festivale HHŽ",
+      "timestamp": "2022-07-01",
+      "gps": [48.18676,17.18651],
+      "url": "./photos/ZlatePiesky1.jpeg"
+    }
+  ]
+}

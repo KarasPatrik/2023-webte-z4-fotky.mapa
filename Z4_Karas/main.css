@@ -1,0 +1,209 @@
+html body{
+    background-color: rgba(213, 220, 236, 0.74);
+}
+.navbar{
+    background-color: #7a8db7;
+    margin-bottom: 2rem;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.thumbnail {
+    margin: .5em .5em;
+    height: 18rem;
+    width: 18rem;
+    object-fit: cover;
+    border-radius: 1em;
+    border: solid 3px #7a8db7;
+    transition: .25s;
+}
+.thumbnail:hover {
+    scale: 110%;
+}
+.filter{
+    border: solid 3px #7a8db7;
+    border-radius: 7px;
+    background-color: #7a8db7;
+    margin-bottom: 2rem;
+}
+.filter::placeholder{
+    color: black;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.container{
+    text-align: center;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    max-height: 920px;
+}
+.modalImg{
+    display: block;
+    margin: 0 auto;
+    height: max-content;
+    max-height: 800px;
+    border-radius: 30px;
+    width: auto;
+    max-width: 90%;
+}
+.close {
+    color: rgba(256,256,256,0.8);
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left,
+.right {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: rgba(256,256,256,0.8);
+    font-weight: bold;
+    font-size: 30px;
+}
+.right {
+    right: 5px;
+    border-radius: 5px 0 0 5px;
+}
+.left{
+    left: 5px;
+    border-radius: 0 5px 5px 0;
+}
+.slideshow{
+    color: rgba(256,256,256,0.8);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.right:hover,
+.right:focus,
+.left:hover,
+.right:focus,
+.close:hover,
+.close:focus,
+.slideshow:hover,
+.slideshow:focus
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    scale: 120%;
+    transition: .2s;
+}
+.pictureName{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.pictureDescription{
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+}
+.pictureDate{
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: right;
+    padding-bottom: 4rem;
+}
+.imgs{
+    display: inline-block;
+    justify-content: center;
+    max-width: 90%;
+
+}
+.imgRest{
+    display: grid;
+    justify-content: center;
+}
+.map{
+    height: 500px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.route{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    transition: .2s;
+}
+.route:hover{
+    scale: 110%;
+}
+@media screen and (max-width: 860px) {
+    .left,
+    .right{
+        top:40%;
+    }
+}
+@media screen and (max-width: 660px) {
+    .left,
+    .right{
+        top:35%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .close,
+    .right,
+    .left{
+        font-size: 20px;
+    }
+    .close{
+        top: 10px;
+        right: 20px;
+    }
+    .left,
+    .right{
+        top:30%;
+    }
+}
+@media screen and (max-width: 490px) {
+    .left,
+    .right{
+        top:25%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .left,
+    .right{
+        top:20%;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" >
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Mapa</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand">Patrik Karas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link nav_option" href="index.html">Galéria</a>
+                <a class="nav-link nav_option active" href="map.html">Mapa</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="imgs">
+            <img class="modalImg" id="modalImg" src="">
+        </div>
+        <div class="imgRest">
+            <span class="pictureName" id="pictureName"> </span>
+            <span class="pictureDescription" id="pictureDescription"> </span>
+            <span class="pictureDate" id="pictureDate"> </span>
+        </div>
+    </div>
+    <span class="close" onclick="closeModal()">&#10005</span>
+    <span class="left" onclick="leftPhoto()">&#8592</span>
+    <span class="right" onclick="rightPhoto()">&#8594</span>
+    <span class="slideshow"  id="slideshow" onclick="validateSlideshow()"> Slideshow</span>
+</div>
+
+<div class="container">
+    <h1>Mapa</h1>
+
+    <div id="map" class="map"></div>
+
+    <button id="route" class="route" onclick="makeRoute()">Trasa</button>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="map_script.js"></script>
+
+</body>
+</html>
